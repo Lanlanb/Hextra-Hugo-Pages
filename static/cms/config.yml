@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Lanlanb/Hextra-Hugo-Pages # ← GANTI INI! Contoh: bulan123/my-hextra-blog
   branch: main
-  base_url: https://hextra.bulannrlla.workers.dev   # atau domain cms kamu nanti
+  base_url: https://sveltia-cms-auth.bulannrlla.workers.dev   # atau domain cms kamu nanti
     
 
 media_folder: "static/images"
