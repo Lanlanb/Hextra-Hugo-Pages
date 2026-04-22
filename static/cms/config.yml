@@ -79,7 +79,7 @@ collections:
     folder: "content/docs"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime", default: "{{now}}"}            
       - {label: "Body", name: "body", widget: "markdown"}
       
