@@ -72,5 +72,3 @@ Dan saya tidak salah ... benar, kan?
 LOL Bahkan saya sangat ingin mengubah kesalahan tanda baca itu dengan segera. Tapi saya tahu itu tidak (boleh) bisa. Atau saya akan menyesal nantinya.
 
 Benar-benar mengerikan.
-
-Saya harus menahan diri.
