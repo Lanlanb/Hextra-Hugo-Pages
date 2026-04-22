@@ -49,3 +49,62 @@ layout: hextra-home
     subtitle="Syntax highlighting / Table of contents / SEO / RSS / LaTeX / Mermaid / Customizable / and more..."
   >}}
 {{< /hextra/feature-grid >}}
+
+
+### mulai dari sini
+
+{{< hextra/hero-badge >}}
+  Selamat datang
+{{< /hextra/hero-badge >}}
+
+<div class="mt-6 mb-6">
+{{< hextra/hero-title >}}
+  Kalimat Pembuka Sederhana
+{{< /hextra/hero-title >}}
+</div>
+
+{{< hextra/hero-subtitle >}}
+  Deskripsi singkat tentang website Anda. Bisa satu atau dua kalimat yang menarik.
+{{< /hextra/hero-subtitle >}}
+
+<div class="mt-8">
+  {{< hextra/hero-button text="Call to Action" link="projects" >}}
+</div>
+
+## Proyek pilihan
+
+{{< hextra/grid >}}
+  {{< hextra/card
+    title="Proyek Manajemen"
+    subtitle="Mengelola tim dengan efektif"
+    link="projects/project-manajemen"
+  >}}
+  {{< hextra/card
+    title="Proyek Data"
+    subtitle="Analisis big data modern"
+    link="projects/project-data"
+  >}}
+  {{< hextra/card
+    title="Proyek Desain"
+    subtitle="UI/UX yang memukau"
+    link="projects/project-desain"
+  >}}
+{{< /hextra/grid >}}
+
+> Kata-kata motivasi: "Tetap konsisten, hasil akan mengikuti."
+
+## Postingan Pilihan
+
+{{< hextra/grid >}}
+  {{< hextra/card
+    title="Tips Manajemen Waktu"
+    subtitle="Tag: Manajemen"
+    link="post/manajemen-1"
+  >}}
+  {{< hextra/card
+    title="Visualisasi Data"
+    subtitle="Tag: Data"
+    link="post/data-1"
+  >}}
+{{< /hextra/grid >}}
+
