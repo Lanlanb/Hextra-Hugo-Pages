@@ -10,20 +10,20 @@ weight: 3
 {{< /hextra/hero-badge >}}
 </div>
 
-{{< hextra/grid >}}
-  {{< hextra/card
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card
     title="Manajemen Proyek Agile"
     subtitle="Tag: Manajemen"
-    link="post/manajemen-1"
+    link="blog/manajemen-1"
   >}}
-  {{< hextra/card
+  {{< hextra/feature-card
     title="Analisis Data dengan Python"
     subtitle="Tag: Data"
-    link="post/data-1"
+    link="blog/data-1"
   >}}
-  {{< hextra/card
+  {{< hextra/feature-card
     title="Prinsip Desain Minimalis"
     subtitle="Tag: Desain"
-    link="post/desain-1"
+    link="blog/desain-1"
   >}}
-{{< /hextra/grid >}}
+{{< /hextra/feature-grid >}}
