@@ -38,7 +38,7 @@ menu:
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
 
   footer:
     displayCopyright: true
@@ -47,6 +47,7 @@ params:
   editURL:
     enable: true
     base: "https://github.com/imfing/hextra-starter-template/edit/main/content"  
+
   
   # add 'terakhir kali di update' dan 'author' dari commit git
   # Display the last modification date
@@ -71,4 +72,8 @@ params:
 services:
   googleAnalytics:
     ID: G-MEASUREMENT_ID
-      
+
+# Taxonomy (Tags and Category)
+taxonomies:
+  tag: "tags"
+  category: "categories"
