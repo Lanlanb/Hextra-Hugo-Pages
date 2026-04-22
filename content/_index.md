@@ -5,19 +5,16 @@ layout: hextra-home
 
 {{< hextra/hero-badge >}}
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
-  <span>Fleksibel, Dapat belajar lebih banyak</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
+  <span>Fleksibel, Dapat belajar lebih banyak</span>{{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
 <div class="hx:mt-6 hx:mb-6">
-{{< hextra/hero-headline >}}
-  Bangun lingkungan kerja&nbsp;<br class="hx:sm:block hx:hidden" />with Markdown and Hugo
+{{< hextra/hero-headline >}}Bangun lingkungan kerja&nbsp;<br class="hx:sm:block hx:hidden" />with Markdown and Hugo
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx:mb-12">
-{{< hextra/hero-subtitle >}}
-  Terus berkembang, di mana bumu dipijak&nbsp;<br class="hx:sm:block hx:hidden" />for creating beautiful static websites
+{{< hextra/hero-subtitle >}}Terus berkembang, di mana bumu dipijak&nbsp;<br class="hx:sm:block hx:hidden" />for creating beautiful static websites
 {{< /hextra/hero-subtitle >}}
 </div>
 
@@ -30,7 +27,7 @@ layout: hextra-home
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
     title="Fast and Easy"
-    subtitle="Simple dan user friendly, Website ini sudah berjalan di internet.
+    subtitle="Simple dan user friendly, Website ini sudah berjalan di internet."
     imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
