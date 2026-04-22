@@ -58,9 +58,9 @@ layout: hextra-home
 {{< /hextra/hero-badge >}}
 
 <div class="mt-6 mb-6">
-{{< hextra/hero-title >}}
+{{< hextra/hero-headline >}}
   Kalimat Pembuka Sederhana
-{{< /hextra/hero-title >}}
+{{< /hextra/hero-headline >}}
 </div>
 
 {{< hextra/hero-subtitle >}}
