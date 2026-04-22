@@ -53,6 +53,7 @@ layout: hextra-home
 
 ### mulai dari sini
 
+
 {{< hextra/hero-badge >}}
   Selamat datang
 {{< /hextra/hero-badge >}}
@@ -74,17 +75,17 @@ layout: hextra-home
 ## Proyek pilihan
 
 {{< hextra/feature-grid >}}
-  {{< hextra/card
+  {{< hextra/feature-card
     title="Proyek Manajemen"
     subtitle="Mengelola tim dengan efektif"
     link="portofolio/project-manajemen"
   >}}
-  {{< hextra/card
+  {{< hextra/feature-card
     title="Proyek Data"
     subtitle="Analisis big data modern"
     link="portofolio/project-data"
   >}}
-  {{< hextra/card
+  {{< hextra/feature-card
     title="Proyek Desain"
     subtitle="UI/UX yang memukau"
     link="portofolio/project-desain"
@@ -96,15 +97,15 @@ layout: hextra-home
 ## Postingan Pilihan
 
 {{< hextra/feature-grid >}}
-  {{< hextra/card
+  {{< hextra/feature-card
     title="Tips Manajemen Waktu"
     subtitle="Tag: Manajemen"
-    link="post/manajemen-1"
+    link="blog/manajemen-1"
   >}}
-  {{< hextra/card
+  {{< hextra/feature-card
     title="Visualisasi Data"
     subtitle="Tag: Data"
-    link="post/data-1"
+    link="blog/data-1"
   >}}
 {{< /hextra/feature-grid >}}
 
