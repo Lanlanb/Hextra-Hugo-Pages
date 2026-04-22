@@ -62,11 +62,10 @@ collections:
   # ========== COLLECTION ABOUT ==========
   - name: "about"
     label: "About"
-    folder: "content/about"
     slug: "_index"
     files:
       - name: "about"
-        label: "About Page"
+        label: "About"
         file: "content/about/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string", default: "About"}
@@ -89,7 +88,7 @@ collections:
     slug: "_index"
     files:
       - name: "home"
-        label: "Homepage"
+        label: "Home"
         file: "content/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string", default: "Beranda"}
