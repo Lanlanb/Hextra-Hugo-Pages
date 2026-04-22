@@ -61,18 +61,16 @@ collections:
 
   # ========== COLLECTION ABOUT ==========
   - name: "about"
-    label: "👤 About Page"
+    label: "About"
     folder: "content/about"
-    create: false   # Hanya 1 file about/_index.md
     slug: "_index"
-    editor:
-      preview: false
     files:
       - name: "about"
         label: "About Page"
         file: "content/about/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string", default: "About"}
+          - {label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
           - {label: "Body", name: "body", widget: "markdown"}
  
   # ========== COLLECTION DOCS (optional) ==========
@@ -81,18 +79,17 @@ collections:
     folder: "content/docs"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title", name: "title", widget: "string}
+      - {label: "Date", name: "date", widget: "datetime", default: "{{now}}"}            
       - {label: "Body", name: "body", widget: "markdown"}
       
   # ========== COLLECTION HOMEPAGE (optional) ==========
   - name: "homepage"
-    label: "Homepage"
-    folder: "content"
-    create: false
+    label: "Home"
     slug: "_index"
     files:
       - name: "home"
-        label: "Homepage Content"
+        label: "Homepage"
         file: "content/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string", default: "Beranda"}
