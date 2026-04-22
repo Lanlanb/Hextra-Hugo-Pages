@@ -18,22 +18,25 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - name: Search
       weight: 1
+      params:
+        type: search  
     - name: Blog
       pageRef: /blog
       weight: 2
+      type: link
+      icon: document
     - name: Portofolio
       pageRef: /portofolio
       weight: 3
+      type: link 
+      icon: collection
     - name: About
       pageRef: /about
       weight: 4
-    - name: Search
-      weight: 5
-      params:
-        type: search
+      type: link
+      icon: user
 
 params:
   navbar:
@@ -77,3 +80,6 @@ services:
 taxonomies:
   tag: "tags"
   category: "categories"
+  
+# Enable untuk akses icon.yaml
+enableInlineShortcodes: true
