@@ -4,34 +4,78 @@ backend:
   branch: main
   base_url: https://sveltia-cms-auth.bulannrlla.workers.dev   # atau domain cms kamu nanti
     
-
 media_folder: "static/images"
 public_folder: "/images"
-
+    
 collections:
+  # ========== COLLECTION POST ==========
   - name: "blog"
-    label: "Blog Posts"
+    label: "Postingan Blog"
     folder: "content/blog"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
+    identifier_field: "title"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
-      - {label: "Featured Image", name: "image", widget: "image"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - label: "Categories"
+        name: "categories"
+        widget: "select"
+        options: ["Post", "Portfolio"]
+        default: ["Post"]
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        options:
+          - {label: "Manajemen", value: "Manajemen"}
+          - {label: "Data", value: "Data"}
+          - {label: "Desain", value: "Desain"}
       - {label: "Body", name: "body", widget: "markdown"}
 
+  # ========== COLLECTION PROJECTS (Portfolio) ==========
   - name: "portofolio"
-    label: "Portofolio / Proyek"
+    label: "Portfolio"
     folder: "content/portofolio"
     create: true
+    slug: "{{slug}}"
+    identifier_field: "title"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Short Description", name: "description", widget: "text"}
-      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - label: "Categories"
+        name: "categories"
+        widget: "hidden"
+        default: ["Portfolio"]
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        options:
+          - {label: "Manajemen", value: "Manajemen"}
+          - {label: "Data", value: "Data"}
+          - {label: "Desain", value: "Desain"}
       - {label: "Body", name: "body", widget: "markdown"}
 
+  # ========== COLLECTION ABOUT ==========
+  - name: "about"
+    label: "👤 About Page"
+    folder: "content/about"
+    create: false   # Hanya 1 file about/_index.md
+    slug: "_index"
+    editor:
+      preview: false
+    files:
+      - name: "about"
+        label: "About Page"
+        file: "content/about/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: "About"}
+          - {label: "Body", name: "body", widget: "markdown"}
+ 
+  # ========== COLLECTION DOCS (optional) ==========
   - name: "docs"
     label: "Docs / Dokumentasi"
     folder: "content/docs"
@@ -39,3 +83,19 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      
+  # ========== COLLECTION HOMEPAGE (optional) ==========
+  - name: "homepage"
+    label: "Homepage"
+    folder: "content"
+    create: false
+    slug: "_index"
+    files:
+      - name: "home"
+        label: "Homepage Content"
+        file: "content/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: "Beranda"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "hextra-home"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          
