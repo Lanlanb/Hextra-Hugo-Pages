@@ -68,34 +68,34 @@ layout: hextra-home
 {{< /hextra/hero-subtitle >}}
 
 <div class="mt-8">
-  {{< hextra/hero-button text="Call to Action" link="projects" >}}
+  {{< hextra/hero-button text="Call to Action" link="portofolio" >}}
 </div>
 
 ## Proyek pilihan
 
-{{< hextra/grid >}}
+{{< hextra/feature-grid >}}
   {{< hextra/card
     title="Proyek Manajemen"
     subtitle="Mengelola tim dengan efektif"
-    link="projects/project-manajemen"
+    link="portofolio/project-manajemen"
   >}}
   {{< hextra/card
     title="Proyek Data"
     subtitle="Analisis big data modern"
-    link="projects/project-data"
+    link="portofolio/project-data"
   >}}
   {{< hextra/card
     title="Proyek Desain"
     subtitle="UI/UX yang memukau"
-    link="projects/project-desain"
+    link="portofolio/project-desain"
   >}}
-{{< /hextra/grid >}}
+{{< /hextra/feature-grid >}}
 
 > Kata-kata motivasi: "Tetap konsisten, hasil akan mengikuti."
 
 ## Postingan Pilihan
 
-{{< hextra/grid >}}
+{{< hextra/feature-grid >}}
   {{< hextra/card
     title="Tips Manajemen Waktu"
     subtitle="Tag: Manajemen"
@@ -106,5 +106,5 @@ layout: hextra-home
     subtitle="Tag: Data"
     link="post/data-1"
   >}}
-{{< /hextra/grid >}}
+{{< /hextra/feature-grid >}}
 
