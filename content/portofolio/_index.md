@@ -11,20 +11,20 @@ layout: wide
 Ini adalah project-project yang telah saya kerjakan
 </p>
 
-{{< hextra/grid >}}
-  {{< hextra/card
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card
     title="Sistem Manajemen Inventory"
     subtitle="Tag: Manajemen"
-    link="projects/project-manajemen"
+    link="portofolio/project-manajemen"
   >}}
-  {{< hextra/card
+  {{< hextra/feature-card
     title="Dashboard Real-time"
     subtitle="Tag: Data"
-    link="projects/project-data"
+    link="portofolio/project-data"
   >}}
-  {{< hextra/card
+  {{< hextra/feature-card
     title="Redesign Aplikasi Mobile"
     subtitle="Tag: Desain"
-    link="projects/project-desain"
+    link="portofolio/project-desain"
   >}}
-{{< /hextra/grid >}}
+{{< /hextra/feature-grid >}}
