@@ -93,7 +93,7 @@ params:
 # add Google Analytics for analysis Website and tracking
 services:
   googleAnalytics:
-    ID: G-MEASUREMENT_ID
+    ID: G-PE73MTF5GW
 
 # Taxonomy (Tags and Category)
 taxonomies:
