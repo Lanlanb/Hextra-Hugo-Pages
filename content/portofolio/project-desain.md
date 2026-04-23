@@ -1,7 +1,10 @@
 ---
-title: "Judul Project"
+title: Project Desain
 date: 2024-02-10
-categories: ["Portfolio"] 
-tags: ["Desain"]        
 draft: false
+categories: Portfolio
+tags:
+  - Desain
 ---
+
+Ini adalah contoh untuk project Desain
