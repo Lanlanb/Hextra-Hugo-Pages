@@ -1,7 +1,10 @@
 ---
-title: "Judul Project"
+title: Project Manajemen
 date: 2024-02-10
-categories: ["Portfolio"] 
-tags: ["Manajemen"]     
 draft: false
+categories: Portfolio
+tags:
+  - Manajemen
 ---
+
+Ini adalah contoh untuk project Manajemen
