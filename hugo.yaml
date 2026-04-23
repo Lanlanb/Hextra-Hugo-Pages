@@ -24,17 +24,17 @@ menu:
         type: search  
     - name: Blog
       pageRef: /blog
-      weight: 2
+      weight: 3
       type: link
       icon: document
     - name: Portofolio
       pageRef: /portofolio
-      weight: 3
+      weight: 4
       type: link 
       icon: collection
     - name: About
       pageRef: /about
-      weight: 4
+      weight: 5
       type: link
       icon: user
 
@@ -71,6 +71,25 @@ params:
       serverURL: "https://example.com"
       websiteID: "94db1cb1-74f4-4a40-ad6c-962362670409"
 
+  comments:
+      type: giscus
+      giscus:
+        repo: Lanlanb/Hextra-Hugo-Pages
+        repoId: R_kgDOSIerlg
+        category: Announcements
+        categoryId: DIC_kwDOSIerls4C7ZF8
+        theme: preferred_color_scheme
+        src="https://giscus.app/client.js"
+        mapping: pathname        
+        strict="0"
+        reactionsEnabled: 1
+        emitMetadata: 1
+        inputPosition: top
+        lang: id
+        loading: lazy
+        crossorigi: anonymous
+        
+      
 # add Google Analytics for analysis Website and tracking
 services:
   googleAnalytics:
