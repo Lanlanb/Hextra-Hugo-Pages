@@ -79,9 +79,8 @@ params:
         category: Announcements
         categoryId: DIC_kwDOSIerls4C7ZF8
         theme: preferred_color_scheme
-        src="https://giscus.app/client.js"
         mapping: pathname        
-        strict="0"
+        strict: 0
         reactionsEnabled: 1
         emitMetadata: 1
         inputPosition: top
