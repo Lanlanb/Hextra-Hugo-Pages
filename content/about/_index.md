@@ -19,7 +19,6 @@ Website ini dibangun menggunakan sistem next-js-notion yang dikembangkan oleh Tr
 
 <aside>
 
-
 Statistik website ini dapat dilihat menggunakan umami, lho!
 
 [Umami Realtime Stats](https://www.notion.so/Umami-Realtime-Stats-202c813f9c548049b625f97c3343cd47?pvs=21)
