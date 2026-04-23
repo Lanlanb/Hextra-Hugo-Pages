@@ -68,8 +68,8 @@ params:
   # add umami for analysis and tracking website
   analytics:
     umami:
-      serverURL: "https://example.com"
-      websiteID: "94db1cb1-74f4-4a40-ad6c-962362670409"
+      serverURL: "https://nurlaelabulan.my.id"
+      websiteID: "b32741f6-651d-46bd-936b-ea077ac915ca"
 
   comments:
       type: giscus
