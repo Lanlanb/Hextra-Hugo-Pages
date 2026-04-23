@@ -1,6 +1,8 @@
 ---
 title: Bulan's Digital
 layout: hextra-home
+name: google-adsense-account
+content: ca-pub-3095388627750634
 ---
 
 {{< hextra/hero-badge >}}
