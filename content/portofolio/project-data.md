@@ -1,7 +1,10 @@
 ---
-title: "Judul Project"
+title: Example Data
 date: 2024-02-10
-categories: ["Portfolio"]
-tags: ["Data"]      
 draft: false
+categories: Portfolio
+tags:
+  - Data
 ---
+
+Ini adalah contoh untuk project Data
