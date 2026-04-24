@@ -9,7 +9,7 @@ tags:
 
 # Disclaimer!
 
-> Halaman ini adalah proyek yang saya mulai (January 31, 2025 ) sebagai bagian dari dokumentasi mempelajari SQL, yang didapatkan melalui berbagai sumber data dan informasi yang tersedia. Setiap konten yang ada, **bukan** hanya sekedar dan/atau adalah **copy-paste** ataupun tindakan **pembajakan** dan **penyebarluasan** materi/isi/konten yang berasal dari **sumber** ([Referensi dan Rujukan](https://www.notion.so/18cc813f9c548097af53dec88292c3e4?pvs=21)) yang disertakan, tetapi **pemahaman saya mengenai SQL.** Proyek ini selalu dan akan terus berjalan selama SQL masih ada dan dipakai.
+> Halaman ini adalah proyek yang saya ajukan sebagai siswa dalam program Bootcamp Data Science di kelas.work. Baik konteks dan skenario merupakan bagian untuk pembelajaran dan simulasi dalam Bootcamp.
 
 # Overview
 
@@ -17,13 +17,15 @@ Web page screenshot
 
 ![cover - by Web 2 PDF](/images/docs-google-com-presentation-d-1zW0IV0oYhs_e3JpBUDP0erida9tgBHbv-edit-usp-sharing-ouid-116791460179490765452-rtpof-true-sd-true.jpg)
 
-www.web2pdfconvert.com
+{{ card
 
-Presentasi hasil
+<br>
 
 # Pendahuluan
 
 Dokumentasi ini merangkum empat studi kasus utama dalam data science, mulai dari analisis statistik hingga implementasi pembelajaran mesin dan deep learning. Setiap studi kasus mencakup pendekatan unik untuk memecahkan permasalahan berbasis data, memberikan wawasan, dan menawarkan solusi praktis. Proyek ini bertujuan untuk mengeksplorasi berbagai permasalahan nyata yang ada dalam dunia data, seperti mengetahui efektivitas dari suatu kegiatan, analisis harga dalam pasar, mesin yang dapat memberikan rekomendasi kepada pengguna hingga mempelajari bahasa isyarat menggunakan klasifikasi gambar.
+
+<br>
 
 # Detail Proses
 
@@ -34,8 +36,6 @@ Dokumentasi ini merangkum empat studi kasus utama dalam data science, mulai dari
 Perusahaan X ingin meningkatkan penjualan mereka. Dari data penjualan sebelumnya menunjukkan bahwa penjualan rata-rata yaitu $100 per transaksi. Setelah melakukan training kepada pekerja sales, data penjualan terbaru (yang diambil dari 25 sampel pekerja sales) tersimpan dalam tabel data di bawah ini :
 
 ![Sumber: Bootcamp](/images/Screenshot_20241217-150446_1.png)
-
-Sumber: Bootcamp
 
 **Rumusan Masalah**
 
@@ -53,9 +53,7 @@ Sumber: Bootcamp
 - **Hasil Utama**: Tidak terdapat peningkatan signifikan dalam rata-rata transaksi setelah pelatihan.
 - **Insight**: Pelatihan belum dan/atau bukan strategi yang efektif untuk meningkatkan rata-rata jumlah transaksi pekerja sales di perusahaan X.
 
-Selengkapnya mengenai studi kasus, dapat dilihat di [Studycase: Sale Force Training](https://www.notion.so/Studycase-Sale-Force-Training-253c813f9c54836cad8e815a611a986f?pvs=21)
-
-***
+<br><br>
 
 ## Studi Kasus 2: Housing Price
 
@@ -78,9 +76,7 @@ Eksplorasi berbagai faktor yang memengaruhi harga properti menggunakan dataset â
 - **Hasil Utama**: Lokasi dengan fasilitas lengkap menjadi faktor dominan, dan luas bangunan memiliki korelasi tinggi terhadap harga properti.
 - **Insight**: Segmentasi pasar properti berdasarkan fasilitas dan ukuran bangunan terlihat jelas.
 
-Selengkapnya mengenai studi kasus, dapat dilihat di [Studycase: Housing Price](https://www.notion.so/Studycase-Housing-Price-791c813f9c5483c6a3948159c16c17b9?pvs=21) 
-
-***
+<br>
 
 ## Studi Kasus 3: Machine Learning
 
@@ -112,9 +108,7 @@ Apa saja faktor yang memengaruhi  pengguna dalam memberikan rating terhadap suat
 
 - **Insight**: Rekomendasi mencerminkan preferensi pengguna, baik secara acak maupun berdasarkan pilihan pengguna. Namun, pengujian lebih lanjut diperlukan untuk mengatasi data dengan distribusi tidak seimbang
 
-Selengkapnya mengenai studi kasus, dapat dilihat di [Studycase: Machine Learning](https://www.notion.so/Studycase-Machine-Learning-66fc813f9c5483ae8771813dd0b7dd1a?pvs=21)
-
-***
+<br>
 
 ## Studi Kasus 4: Deep Learning
 
@@ -145,9 +139,7 @@ American Sign Language (ASL) adalah bahasa visual yang digunakan oleh komunitas 
     1. Model berkinerja baik untuk sebagian besar kelas, namun memerlukan perbaikan untuk kelas-kelas dengan performa rendah.
     2. Teknik augmentasi data atau peningkatan jumlah data untuk kelas tertentu dapat meningkatkan akurasi.
 
-Selengkapnya mengenai studi kasus, dapat dilihat di [Studycase: Deep Learning](https://www.notion.so/Studycase-Deep-Learning-5c0c813f9c54823f9ed8817dd9858d75?pvs=21)
-
-***
+<br>
 
 # Kesimpulan dan Penutup
 
