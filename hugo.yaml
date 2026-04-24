@@ -33,7 +33,7 @@ menu:
       type: link 
       icon: collection
     - name: About
-      pageRef: /about
+      pageRef: /about/_index.md
       weight: 5
       type: link
       icon: user
