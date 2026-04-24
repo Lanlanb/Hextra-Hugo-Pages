@@ -1,7 +1,7 @@
 ---
 title: Final Projects Bootcamp Data Science
 date: 2024-02-10
-draft: true
+draft: false
 categories: Portfolio
 tags:
   - Data
@@ -17,7 +17,11 @@ Web page screenshot
 
 ![cover - by Web 2 PDF](/images/docs-google-com-presentation-d-1zW0IV0oYhs_e3JpBUDP0erida9tgBHbv-edit-usp-sharing-ouid-116791460179490765452-rtpof-true-sd-true.jpg)
 
-{{ card
+{{ < callout > }}
+
+Hasil yang diharapkan: [Presentasi Project](https://docs.google.com/presentation/d/1zW0IV0oYhs_e3JpBUDP0erida9tgBHbv/edit?usp=drivesdk&ouid=116802401847442666522&rtpof=true&sd=true)
+
+{{ <\callout > }}
 
 <br>
 
@@ -76,7 +80,7 @@ Eksplorasi berbagai faktor yang memengaruhi harga properti menggunakan dataset â
 - **Hasil Utama**: Lokasi dengan fasilitas lengkap menjadi faktor dominan, dan luas bangunan memiliki korelasi tinggi terhadap harga properti.
 - **Insight**: Segmentasi pasar properti berdasarkan fasilitas dan ukuran bangunan terlihat jelas.
 
-<br>
+<br><br>
 
 ## Studi Kasus 3: Machine Learning
 
@@ -108,7 +112,7 @@ Apa saja faktor yang memengaruhi  pengguna dalam memberikan rating terhadap suat
 
 - **Insight**: Rekomendasi mencerminkan preferensi pengguna, baik secara acak maupun berdasarkan pilihan pengguna. Namun, pengujian lebih lanjut diperlukan untuk mengatasi data dengan distribusi tidak seimbang
 
-<br>
+<br><br>
 
 ## Studi Kasus 4: Deep Learning
 
@@ -139,7 +143,7 @@ American Sign Language (ASL) adalah bahasa visual yang digunakan oleh komunitas 
     1. Model berkinerja baik untuk sebagian besar kelas, namun memerlukan perbaikan untuk kelas-kelas dengan performa rendah.
     2. Teknik augmentasi data atau peningkatan jumlah data untuk kelas tertentu dapat meningkatkan akurasi.
 
-<br>
+<br><br>
 
 # Kesimpulan dan Penutup
 
