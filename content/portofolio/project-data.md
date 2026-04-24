@@ -1,5 +1,5 @@
 ---
-title: Example Data
+title: Final Projects Bootcamp Data Science
 date: 2024-02-10
 draft: true
 categories: Portfolio
@@ -7,37 +7,19 @@ tags:
   - Data
 ---
 
-# Final Projects Bootcamp Data Science
-
-status: Published
-type: Post
-date: April 19, 2026 9:59 PM
-tags: data
-category: project
-
 # Disclaimer!
 
 > Halaman ini adalah proyek yang saya mulai (January 31, 2025 ) sebagai bagian dari dokumentasi mempelajari SQL, yang didapatkan melalui berbagai sumber data dan informasi yang tersedia. Setiap konten yang ada, **bukan** hanya sekedar dan/atau adalah **copy-paste** ataupun tindakan **pembajakan** dan **penyebarluasan** materi/isi/konten yang berasal dari **sumber** ([Referensi dan Rujukan](https://www.notion.so/18cc813f9c548097af53dec88292c3e4?pvs=21)) yang disertakan, tetapi **pemahaman saya mengenai SQL.** Proyek ini selalu dan akan terus berjalan selama SQL masih ada dan dipakai.
-> 
-
-<aside>
-ℹ️
-
-Selengkapnya mengenai masing-masing project dapat dilihat di post terkait atau _view details._
-
-</aside>
 
 # Overview
 
 Web page screenshot
 
-![cover - by Web 2 PDF](Final%20Projects%20Bootcamp%20Data%20Science/docs-google-com-presentation-d-1zW0IV0oYhs_e3JpBUDP0erida9tgBHbv-edit-usp-sharing-ouid-116791460179490765452-rtpof-true-sd-true.jpg)
+![cover - by Web 2 PDF](/images/docs-google-com-presentation-d-1zW0IV0oYhs_e3JpBUDP0erida9tgBHbv-edit-usp-sharing-ouid-116791460179490765452-rtpof-true-sd-true.jpg)
 
 www.web2pdfconvert.com
 
 Presentasi hasil
-
-[https://docs.google.com/presentation/d/1zW0IV0oYhs_e3JpBUDP0erida9tgBHbv/edit?usp=drivesdk&ouid=116802401847442666522&rtpof=true&sd=true](https://docs.google.com/presentation/d/1zW0IV0oYhs_e3JpBUDP0erida9tgBHbv/edit?usp=drivesdk&ouid=116802401847442666522&rtpof=true&sd=true)
 
 # Pendahuluan
 
@@ -51,7 +33,7 @@ Dokumentasi ini merangkum empat studi kasus utama dalam data science, mulai dari
 
 Perusahaan X ingin meningkatkan penjualan mereka. Dari data penjualan sebelumnya menunjukkan bahwa penjualan rata-rata yaitu $100 per transaksi. Setelah melakukan training kepada pekerja sales, data penjualan terbaru (yang diambil dari 25 sampel pekerja sales) tersimpan dalam tabel data di bawah ini :
 
-![Sumber: Bootcamp](Final%20Projects%20Bootcamp%20Data%20Science/Screenshot_20241217-150446_1.png)
+![Sumber: Bootcamp](/images/Screenshot_20241217-150446_1.png)
 
 Sumber: Bootcamp
 
