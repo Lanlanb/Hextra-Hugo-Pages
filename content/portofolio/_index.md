@@ -1,9 +1,9 @@
 ---
 title: Portofolio
 weight: 1
-toc: true
+toc: false
 tags: ["manajemen", "data", "desain"]
-layouts: blog
+layouts: archives
 ---
 
 <div class="hx:mt-4"></div>
