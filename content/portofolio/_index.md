@@ -3,7 +3,6 @@ title: Portofolio
 weight: 1
 toc: true
 tags: ["manajemen", "data", "desain"]
-layout: wide
 ---
 
 <div class="hx:mt-4"></div>
