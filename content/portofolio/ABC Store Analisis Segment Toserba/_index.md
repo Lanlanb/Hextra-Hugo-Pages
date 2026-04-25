@@ -1,11 +1,3 @@
-# ABC Store: Analisis Segment Toserba
-
-status: Published
-type: Post
-date: April 19, 2026 9:59 PM
-tags: data
-category: project
-
 # Disclaimer!
 
 > Halaman ini adalah dokumentasi yang saya buat untuk salah satu proyek selama mengikuti Bootcamp Data Science di [kelas.work](http://kelas.work). Saya tidak, dalam bentuk apapun, terikat dengan perusahaan/badan usaha yang ada dalam studi kasus ini dan baik ABC Store maupun skenario yang ada merupakan langkah yang saya ambil untuk membuat proyek ini berjalan sebagaimana adanya dalam DuDi.
@@ -140,17 +132,17 @@ data.head()
 
 Saat dataset sudah tersambung dengan benar, akan tampil 5 baris awal dari dataset:
 
-![Output dari data.head()](ABC%20Store%20Analisis%20Segment%20Toserba/5a863738-9ff5-481b-9e94-fbbe36fc6612.png)
+![Output dari data.head()](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/5a863738-9ff5-481b-9e94-fbbe36fc6612.png)
 
 Output dari data.head()
 
 Untuk melihat kondisi lainnya, jalankan `data.tail()` dan `data.sample(5)` untuk melihat baris terbawah dan baris yang diambil secara acak. Anda dapat mengatur jumlah barisnya sebanyak yang Anda inginkan.
 
-![Output dari data.sample(5)](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_140226.png)
+![Output dari data.sample(5)](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_140226.png)
 
 Output dari data.sample(5)
 
-![Output dari data.tail()](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_140430.png)
+![Output dari data.tail()](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_140430.png)
 
 Output dari data.tail()
 
@@ -158,17 +150,17 @@ Belum ditemukan kolom Invoice yang mengandung kode ‘C’. Itu artinya, transak
 
 Jalankan juga `data.info()` dan `data.describe()` untuk mencaritahu informasi statistik dan general dari data.
 
-![Output dari data.info()](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_140648.png)
+![Output dari data.info()](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_140648.png)
 
 Output dari data.info()
 
-![Output dari data.describe() untuk tipedata numerikal](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_140844.png)
+![Output dari data.describe() untuk tipedata numerikal](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_140844.png)
 
 Output dari data.describe() untuk tipedata numerikal
 
 Dari penggunaan fungsi describe(), tanpa sadar pembagian dataset sebenarnya telah dilakukan. Karena untuk data dengan tipe seperti object dan sejenisnya, pemanggilan tidak dapat dilakukan secara langsung dan harus menggunakan describe()- pemanggilan langsung dapat dilakukan, namun hasilnya amembingunkan bagi sebagian orang dan saya mengambil jalan yang aman- dengan memilih kolom-kolom tertentu dari DataFrame untuk diterapkan pada fungsi `describe()`.
 
-![Output dari data.describe() untuk tipedata kategorikal/string/object](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_141037.png)
+![Output dari data.describe() untuk tipedata kategorikal/string/object](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_141037.png)
 
 Output dari data.describe() untuk tipedata kategorikal/string/object
 
@@ -220,7 +212,7 @@ data[data["Invoice"].str.contains("C")]
 
 Output:
 
-![Screenshot 2025-01-28 143941.png](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_143941.png)
+![Screenshot 2025-01-28 143941.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_143941.png)
 
 Seperti yang saya sebutkan di atas, adanya kode C dalam data tidak memiliki keberadaan yang begitu signifikan. Setidaknya 0.22% dari baris yang ada dalam dataset adalah pesanan yang dibatalkan.
 
@@ -230,7 +222,7 @@ data = data[~data["Invoice"].str.contains("C", na = False)]data
 
 Hasilnya adalah seperti ini:
 
-![Screenshot 2025-01-28 144128.png](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_144128.png)
+![Screenshot 2025-01-28 144128.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_144128.png)
 
 Selanjutnya adalah variabel InvoiceDate dan Price yang memiliki kesalahan tipedata dan format. 
 
@@ -248,7 +240,7 @@ Selanjutnya adalah variabel InvoiceDate dan Price yang memiliki kesalahan tipeda
 
 Setelah diperbaiki tipedata dan format-nya, hasilnya seperti:
 
-![Menggunakan info() untuk melihat informasi umum setelah diperbaiki.](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_144317.png)
+![Menggunakan info() untuk melihat informasi umum setelah diperbaiki.](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_144317.png)
 
 Menggunakan info() untuk melihat informasi umum setelah diperbaiki.
 
@@ -266,7 +258,7 @@ data = data[data["Price"] > 0]
 data.info()
 ```
 
-![Hasil setelah data yang tidak akurat ditangani.](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_145122.png)
+![Hasil setelah data yang tidak akurat ditangani.](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_145122.png)
 
 Hasil setelah data yang tidak akurat ditangani.
 
@@ -282,7 +274,7 @@ Untuk menangani missing value, entah menghapus atau dengan menggunakan metode pe
 
 Walaupun hanya menyisakan satu variabel saja, hal ini tetap perlu untuk dilakukan.
 
-![Perbandingan missing value dengan keseluruhan data pada dataset.](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_145527.png)
+![Perbandingan missing value dengan keseluruhan data pada dataset.](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_145527.png)
 
 Perbandingan missing value dengan keseluruhan data pada dataset.
 
@@ -290,21 +282,21 @@ Dari keseluruhan data pada dataset, perbandingan dengan nilai yang kosong adalah
 
 Sebagai perbandingan, lihatlah dua sampel yang diambil ini:
 
-![Yang memiliki nilai NaN.](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_150427.png)
+![Yang memiliki nilai NaN.](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_150427.png)
 
 Yang memiliki nilai NaN.
 
-![Yang tidak memiliki nilai NaN.](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_150617.png)
+![Yang tidak memiliki nilai NaN.](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_150617.png)
 
 Yang tidak memiliki nilai NaN.
 
 Dari indeks yang ditunjukkan, walaupun terdapat sebuah baris yang memiliki nilai NaN, hampir semua baris lainnya terisi dengan benar. Hal ini menunjukkan bahwa transaksi benar-benar ada dan memang masalahnya ada pada variabel tersebut.
 
-![Informasi statistik dari missing value.](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_151017.png)
+![Informasi statistik dari missing value.](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-28_151017.png)
 
 Informasi statistik dari missing value.
 
-![Setelah dilakukan penghapusan.](ABC%20Store%20Analisis%20Segment%20Toserba/78d11645-b43b-493b-ac6a-9f6d0b60f310.png)
+![Setelah dilakukan penghapusan.](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/78d11645-b43b-493b-ac6a-9f6d0b60f310.png)
 
 Setelah dilakukan penghapusan.
 
@@ -349,43 +341,43 @@ Memisahkan dataset menjadi beberapa variabel atau sub-dataset. Dalam kasus ini, 
 
 **nums**
 
-![Hist Invoice](ABC%20Store%20Analisis%20Segment%20Toserba/image.png)
+![Hist Invoice](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image.png)
 
 Hist Invoice
 
-![Hist Quantity](ABC%20Store%20Analisis%20Segment%20Toserba/image%201.png)
+![Hist Quantity](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%201.png)
 
 Hist Quantity
 
-![Hist Price](ABC%20Store%20Analisis%20Segment%20Toserba/image%202.png)
+![Hist Price](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%202.png)
 
 Hist Price
 
-![Hist Customer ID](ABC%20Store%20Analisis%20Segment%20Toserba/image%203.png)
+![Hist Customer ID](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%203.png)
 
 Hist Customer ID
 
-![Hist OrderVallue](ABC%20Store%20Analisis%20Segment%20Toserba/image%204.png)
+![Hist OrderVallue](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%204.png)
 
 Hist OrderVallue
 
 **cats**
 
-![Barh StockCode](ABC%20Store%20Analisis%20Segment%20Toserba/image%205.png)
+![Barh StockCode](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%205.png)
 
 Barh StockCode
 
-![Barh Description](ABC%20Store%20Analisis%20Segment%20Toserba/image%206.png)
+![Barh Description](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%206.png)
 
 Barh Description
 
-![Barh Country](ABC%20Store%20Analisis%20Segment%20Toserba/image%207.png)
+![Barh Country](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%207.png)
 
 Barh Country
 
 **datetime**
 
-![Lineplot InvoiceDate from datetime](ABC%20Store%20Analisis%20Segment%20Toserba/download_(39).png)
+![Lineplot InvoiceDate from datetime](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/download_(39).png)
 
 Visualisasi variabel datetime.
 
@@ -393,7 +385,7 @@ Visualisasi variabel datetime.
 
 **Numerikal ‘n Numerikal**
 
-![image.png](ABC%20Store%20Analisis%20Segment%20Toserba/image%208.png)
+![image.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%208.png)
 
 Terdapat dua pasangan variabel yang menunjukkan korelasi positif. Untuk memperoleh variabel seperti OrderValue, terlebih dahulu diperlukan variabel Quantity dan Price.
 
@@ -441,7 +433,7 @@ Jadi, untuk menjawab masalah yang ada, mengenai segment produk yang sering dibel
 
 Untuk mempermudah interpretasi, saya juga membuat visualisasi sederhana:
 
-![17385083910698043856428067849345.png](ABC%20Store%20Analisis%20Segment%20Toserba/17385083910698043856428067849345.png)
+![17385083910698043856428067849345.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/17385083910698043856428067849345.png)
 
 *White Hanging Heart T-light Holder* adalah salah satu barang terbaik yang ditawarkan oleh ABC Store, diikuti oleh *Regency Cakestand 3 Tier* dan delapan produk lainnya. Namun, jika ABC Store memiliki 10 produk teratas, pasti ada juga produk yang kurang sukses. Untuk analisis yang lebih mendalam, masalah atau tantangan dapat memberikan informasi tambahan pada RFM.
 
@@ -475,7 +467,7 @@ Mari mulai!
 
 Karena jumlah pembelian terkecil-nya sudah diketahui yakni 1, maka hanya product dengan sekali pembelian saja yang akan diambil. Selain itu, penggunaan sample berupa hanya 10 produk saja sudah tidak relevan, karena untuk memahami dan mencaritahu mengapa sampai ada produk dengan hanya sekali pembelian, penting untuk melihatnya secara keseluruhan.
 
-![image.png](ABC%20Store%20Analisis%20Segment%20Toserba/image%209.png)
+![image.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%209.png)
 
 Interpretasi:
 
@@ -491,17 +483,17 @@ Sekarang setelah mengetahui bahwa terdapat variasi dalam waktu pembelian dan tre
 
 Dalam langkah ini, adapun maksud dari harga yang tidak kompetitif ialah yang melebihi rata-rata harga. Di mana dengan asumsi produk tersebut terlalu mahal atau harganya terlalu tinggi dari cakupan harga normal, pendekatan ini tidak hanya akan mengungkap ‘Produk ini harganya terlalu tinggi!’, tetapi melihat pola lain seperti negara atau pelanggan yang menjanjikan untuk gambaran analisis RFM dan bahkan pola waktu yang berhubungan dengan langkah sebelumnya.
 
-![Screenshot 2025-02-04 162130.png](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-02-04_162130.png)
+![Screenshot 2025-02-04 162130.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-02-04_162130.png)
 
 Di sini Anda dapat melihat bahwa  ada lima produk kurang kompetitif yang ditemukan di penampilan awal. Dan sisanya adalah produk yang kiranya memiliki harga yang sama dengan rata-rata dan yang lebih rendah. Tentu saja itu tidak dapat dijadikan acuan dan hanya gambaran awal mengetahui dua kelompok yang sudah dibuat.
 
 Kemudian, secara keseluruhan perbandingannya adalah seperti ini:
 
-![image.png](ABC%20Store%20Analisis%20Segment%20Toserba/image%2010.png)
+![image.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%2010.png)
 
 Persentase dari harga yang terlalu tinggi adalah 35.23%, lebih rendah dari yang diharapkan. Kalau begitu, mari perluas kembali jangkauannya.
 
-![barh country of low product ](ABC%20Store%20Analisis%20Segment%20Toserba/1738669369951777217431667300287.png)
+![barh country of low product ](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/1738669369951777217431667300287.png)
 
 barh country of low product 
 
@@ -509,7 +501,7 @@ Inggris (UK) tetap menjadi negara yang paling dominan dan menjanjikan. Negara te
 
 Sebagai contoh, perhatikan visualisasi di bawah ini:
 
-![Barh Customer ID of low product](ABC%20Store%20Analisis%20Segment%20Toserba/17386760643283777386366097863412.png)
+![Barh Customer ID of low product](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/17386760643283777386366097863412.png)
 
 Barh Customer ID of low product
 
@@ -547,7 +539,7 @@ Untuk itu, kita harus melihatnya berdasarkan dua variabel potensial yang telah d
 
 Visualisasi adalah sebagai berikut:
 
-![17386791146709036879437863958284.png](ABC%20Store%20Analisis%20Segment%20Toserba/17386791146709036879437863958284.png)
+![17386791146709036879437863958284.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/17386791146709036879437863958284.png)
 
 Kita bisa membandingkan hasilnya dengan [visualisasi sebelumnya](https://www.notion.so/ABC-Store-Analisis-Segment-Toserba-5b3c813f9c548242b0d201e1fe3ffa39?pvs=21), di mana pada produk yang kurang laku terdapat informasi mengenai para pelanggan yang membeli produk-produk tersebut dan dalam visualisasi ini adalah apa yang menyangkut dari keseluruhan transaksi.
 
@@ -570,7 +562,7 @@ customer_data.head()
 
 Output:
 
-![Screenshot_20250205-200906.png](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_20250205-200906.png)
+![Screenshot_20250205-200906.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_20250205-200906.png)
 
 Setelah membuat pivot table untuk mempermudah analisis, hal lain yang perlu dilakukan adalah mengubah nama kolom menjadi apa yang mewakili isinya.
 
@@ -597,11 +589,11 @@ customer_data.head()
 
 Output:
 
-![Screenshot_20250205-204943_2.png](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_20250205-204943_2.png)
+![Screenshot_20250205-204943_2.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_20250205-204943_2.png)
 
-![17387635040195054611869954118812.png](ABC%20Store%20Analisis%20Segment%20Toserba/17387635040195054611869954118812.png)
+![17387635040195054611869954118812.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/17387635040195054611869954118812.png)
 
-![17387639988723747220305542745068.png](ABC%20Store%20Analisis%20Segment%20Toserba/17387639988723747220305542745068.png)
+![17387639988723747220305542745068.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/17387639988723747220305542745068.png)
 
 Analisis:
 
@@ -609,9 +601,9 @@ Lebih dari 50% pelanggan berada di bawah rentang 100 hari, yang menunjukkan bahw
 
 ## MonetaryValue
 
-![17387687270372333982061694328252.png](ABC%20Store%20Analisis%20Segment%20Toserba/17387687270372333982061694328252.png)
+![17387687270372333982061694328252.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/17387687270372333982061694328252.png)
 
-![17387688161035903825493534435682.png](ABC%20Store%20Analisis%20Segment%20Toserba/17387688161035903825493534435682.png)
+![17387688161035903825493534435682.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/17387688161035903825493534435682.png)
 
 Bedasarkan visualisasi di atas, terdapat nilai ekstrem yang dapat memengaruhi Frequency. Di mana nilai yang ekstrim tersebut adalah apa yang mewakili kontribusi pelanggan yang terlalu besar dan membuat pelanggan dengan kontribusi pembelian sedang atau normal menjadi tidak terlihat.
 
@@ -629,9 +621,9 @@ percentile_99 = np.percentile(customer_data["MonetaryValue"], 99)
 customer_data = customer_data[customer_data["MonetaryValue"] <= percentile_99] # filter 1% outlier dengan mempertahankan 99% data asli.
 ```
 
-![17388113077138140572327618637705.png](ABC%20Store%20Analisis%20Segment%20Toserba/17388113077138140572327618637705.png)
+![17388113077138140572327618637705.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/17388113077138140572327618637705.png)
 
-![17388113681962857138156745131820.png](ABC%20Store%20Analisis%20Segment%20Toserba/17388113681962857138156745131820.png)
+![17388113681962857138156745131820.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/17388113681962857138156745131820.png)
 
 Analisis:
 
@@ -639,9 +631,9 @@ Secara garis besar, terdapat perbedaan dalam distribusi data. Di mana setelah me
 
 ## Frequency
 
-![17388126195481440958274198727471.png](ABC%20Store%20Analisis%20Segment%20Toserba/17388126195481440958274198727471.png)
+![17388126195481440958274198727471.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/17388126195481440958274198727471.png)
 
-![17388127401512617331774327226027.png](ABC%20Store%20Analisis%20Segment%20Toserba/17388127401512617331774327226027.png)
+![17388127401512617331774327226027.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/17388127401512617331774327226027.png)
 
 Analisis:
 Sebagian besar pelanggan melakukan kurang dari 20 transaksi, dengan rata-rata 5,44 transaksi dan tidak lebih dari 3 atau lebih transaksi yang dilakukan oleh sebagian besar pelanggan. Namun, keberadaan outlier berupa pelanggan yang bertransaksi dalam jumlah lebih tinggi dari rata-rata, khususnya kelompok dalam kelompok 75%, menunjukkan bahwa hanya sedikit yang bertransaksi dalam jumlah banyak dan banyak pelanggan yang bertransaksi jarang. Nilai outlier menunjukkan bahwa ada sekelompok pelanggan  yang kaya atau mampu secara ekonomi tetapi segmen pelanggan mereka kecil. Di sisi lain, ada beberapa transaksi yang dilakukan oleh pelanggan dengan segmentasi besar.
@@ -685,19 +677,19 @@ model_elbow.show()
 
 Output-nya:
 
-![download (45).png](ABC%20Store%20Analisis%20Segment%20Toserba/download_(45).png)
+![download (45).png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/download_(45).png)
 
 Dalam dataset ini, titik yang optimal adalah 4. Di mana pada grafik, line menunjukkan penurunan yang tajam hingga k=4 lalu melandai, maka 4 adalah jumlah kluster yang optimal.
 
 Lalu, definisikan model KMeans Anda dan terapkan labels kluster yang dihasilkan oleh model KMeans sebagai columns baru pada `rfm_data` dan lihat bagaimana persebaran setelahnya.
 
-![Screenshot 2025-01-31 201535.png](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-31_201535.png)
+![Screenshot 2025-01-31 201535.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-31_201535.png)
 
 Setelah mendefinisikan model KMeans, saya menambahkan beberapa metrik untuk mendukung kluster k=4-apakah itu benar-benar jumlah kluster yang saya perlukan untuk data saya? apakah saya butuh angka itu?
 
 Jadi saya menambahkan Silhouette Score dan Calinski Harabasz Index dalam analisis saya.Itu adalah bebarapa keputusan di luar rencana saya. Dan hasilnya adalah seperti ini.
 
-![Screenshot 2025-01-31 202602.png](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-31_202602.png)
+![Screenshot 2025-01-31 202602.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-01-31_202602.png)
 
 Interpretasi:
 
@@ -705,11 +697,11 @@ Interpretasi:
 - Dengan Silhouette Score sebesar 0.68, klasterisasi cukup baik, meskipun mungkin masih ada tumpang tindih kecil di area tertentu.
 - Calinski-Harabasz Index yang tinggi menunjukkan bahwa data sudah terbagi dengan baik antar-klaster.
 
-![Screenshot 2025-02-07 163515.png](ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-02-07_163515.png)
+![Screenshot 2025-02-07 163515.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/Screenshot_2025-02-07_163515.png)
 
 Dari hasilnya, saya jadi merasa yakin dan menggunakan k=4 untuk segment pelangggan ABC Store. Barulah setelah itu saya menambahkan label yang diperoleh dari model sebagai kolom baru untuk `rfm_data` yang saya beri nama `cluster_elbow`. `cluster_elbow` ini untuk mengetahui persebarannya, melihat bagaimana persebaran pelanggan berdasarkan pola rfm yang sebelumnya diamati, saya menggunakan catplot.
 
-![catplot visualisasi](ABC%20Store%20Analisis%20Segment%20Toserba/image%2011.png)
+![catplot visualisasi](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%2011.png)
 
 catplot visualisasi
 
@@ -717,15 +709,15 @@ Dari visualisasi tersebut, Anda dapat mengetahui bahwa jumlah pelanggan lebih ba
 
 ## Segmentasi Pelanggan
 
-![Recency ‘n Frequency](ABC%20Store%20Analisis%20Segment%20Toserba/image%2012.png)
+![Recency ‘n Frequency](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%2012.png)
 
 Recency ‘n Frequency
 
-![Recency ‘n MonetaryValue](ABC%20Store%20Analisis%20Segment%20Toserba/image%2013.png)
+![Recency ‘n MonetaryValue](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%2013.png)
 
 Recency ‘n MonetaryValue
 
-![Frequency ‘n MonetaryValue](ABC%20Store%20Analisis%20Segment%20Toserba/image%2014.png)
+![Frequency ‘n MonetaryValue](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%2014.png)
 
 Frequency ‘n MonetaryValue
 
@@ -819,7 +811,7 @@ Dari hasil itu, secara statistik-nya adalah sebagai berikut:
 
 # 5. Evaluasi Pola yang ditemukan
 
-![image.png](ABC%20Store%20Analisis%20Segment%20Toserba/image%2015.png)
+![image.png](https://raw.githubusercontent.com/Lanlanb/Hextra-Hugo-Pages/refs/heads/main/content/portofolio/ABC%20Store%20Analisis%20Segment%20Toserba/image%2015.png)
 
 Analisa:
 
