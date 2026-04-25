@@ -1,9 +1,7 @@
 ---
 title: Portofolio
-weight: 1
+weight: 2
 toc: false
-categories: ["portofolio"]
-layouts: wide
 ---
 
 <div class="hx:mt-4"></div>
