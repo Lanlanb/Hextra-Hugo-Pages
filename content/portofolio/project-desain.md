@@ -2,7 +2,7 @@
 title: Project Desain
 date: 2024-02-10
 draft: false
-categories: Portfolio
+categories: Portofolio 
 tags:
   - Desain
 ---
