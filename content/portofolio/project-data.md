@@ -2,7 +2,7 @@
 title: Final Projects Bootcamp Data Science
 date: 2024-02-10
 draft: false
-categories: Portfolio
+categories: Portofolio
 tags:
   - Data
 ---
