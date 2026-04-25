@@ -1,6 +1,8 @@
 ---
 title: Portofolio
-weight: 2
+weight: 1
+tags: ["manajemen", "data", "desain"]
+categories: ["portofolio"]
 toc: false
 ---
 
