@@ -47,7 +47,7 @@ collections:
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - label: "Categories"
         name: "categories"
-        widget: "hidden"
+        widget: "select"
         default: ["Portfolio"]
       - label: "Tags"
         name: "tags"
