@@ -2,8 +2,8 @@
 title: Portofolio
 weight: 1
 toc: false
-tags: ["manajemen", "data", "desain"]
-layouts: archives
+categories: ["portofolio"]
+layouts: wide
 ---
 
 <div class="hx:mt-4"></div>
