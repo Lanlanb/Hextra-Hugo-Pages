@@ -2,6 +2,7 @@
 title: Portofolio
 weight: 2
 toc: false
+tags: ["manajemen", "data", "desain"]
 layout: wide
 ---
 
