@@ -2,6 +2,7 @@
 title: "Blog"
 weight: 1
 tags: ["manajemen", "data", "desain"]
+categories: ["portofolio"]
 ---
 
 
