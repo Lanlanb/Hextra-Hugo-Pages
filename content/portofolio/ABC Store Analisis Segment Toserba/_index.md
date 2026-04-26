@@ -1,14 +1,17 @@
-# Disclaimer!
+---
+title: ABC Store Analisis Segment Toserba
+date: 2024-02-10
+draft: false
+categories: Portofolio
+tags:
+  - Data
+---
 
-> Halaman ini adalah dokumentasi yang saya buat untuk salah satu proyek selama mengikuti Bootcamp Data Science di [kelas.work](http://kelas.work). Saya tidak, dalam bentuk apapun, terikat dengan perusahaan/badan usaha yang ada dalam studi kasus ini dan baik ABC Store maupun skenario yang ada merupakan langkah yang saya ambil untuk membuat proyek ini berjalan sebagaimana adanya dalam DuDi.
-> 
-
-<aside>
-ℹ️
+# Summary
+Berdasarkan data yang terkumpul, ABC Store ingin melakukan analisis segmentasi pelanggan yang menjangkau pelanggan untuk mengembangkan strategi penjualan yang lebih efektif pada tahun 2012. Saya tidak terikat dengan perusahaan/badan usaha yang ada dalam project ini sebab ABC Store atau skenario yang ada merupakan upaya realistis dalam _decision making_. 
 
 Dataset dapat ditemukan di [Kaggle](https://www.kaggle.com/datasets/ilkeryildiz/online-retail-listing).
 
-</aside>
 
 ---
 
