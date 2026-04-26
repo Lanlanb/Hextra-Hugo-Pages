@@ -3,7 +3,7 @@ title: Portofolio
 weight: 2
 tags: ["manajemen", "data", "desain"]
 categories: ["portofolio"]
-layout: "blog"
+layout: "list"
 ---
 
 <div class="hx:mt-4"></div>
