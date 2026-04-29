@@ -11,12 +11,12 @@ name: google-adsense-account
 {{< /hextra/hero-badge >}}
 
 <div class="hx:mt-6 hx:mb-6">
-{{< hextra/hero-headline >}} Mengubah data&nbsp;<br class="hx:sm:block hx:hidden" />menjadi keputusan yang bermakna
+{{< hextra/hero-headline >}} Mengubah data&nbsp;<br class="hx:sm:block hx:hidden" />menjadi keputusan yang bermakna.
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx:mb-12">
-{{< hextra/hero-subtitle >}}Terus berkembang, di mana bumu dipijak&nbsp;<br class="hx:sm:block hx:hidden" />for creating beautiful static websites
+{{< hextra/hero-subtitle >}}Halo, saya Bulan. &nbsp;<br class="hx:sm:block hx:hidden" />Seorang Data Analyst.
 {{< /hextra/hero-subtitle >}}
 </div>
 
