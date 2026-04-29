@@ -16,7 +16,7 @@ name: google-adsense-account
 </div>
 
 <div class="hx:mb-12">
-{{< hextra/hero-subtitle >}}Halo, saya Bulan. &nbsp;<br class="hx:sm:block hx:hidden" />Seorang Data Analyst.
+{{< hextra/hero-subtitle >}}Halo, saya Bulan. &nbsp;<br class="hx:sm:block hx:hidden" />Seorang Data Analyst— yang membantu menemukan cerita, hadir untuk menjawab pertanyaan yang data tanyakan: 'mengapa' dan 'bagaimana'.
 {{< /hextra/hero-subtitle >}}
 </div>
 
@@ -25,29 +25,3 @@ name: google-adsense-account
 </div>
 
 <div class="hx:mt-6"></div>
-
-{{< hextra/feature-grid >}}
-  {{< hextra/feature-card
-    title="Fast and Easy"
-    subtitle="Simple dan user friendly, Website ini sudah berjalan di internet."
-    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-  >}}
-  {{< hextra/feature-card
-    title="Bulan is All You Analysis Friend's Need"
-    subtitle="Mulai dari bertukar pikiran. Lanjutkan dengan mengerjakan proyek bersama-sama."
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
-    image="images/hextra-markdown.webp"
-    imageClass="hx:top-[40%] hx:left-[36px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
-  >}}
-  {{< hextra/feature-card
-    title="Berikan and Ajukan penawaran sendiri"
-    subtitle="Kirimkan proposal. Saya pekerja lepas."
-  >}}
-  {{< hextra/feature-card
-    title="And Much More..."
-    icon="sparkles"
-    subtitle="Syntax highlighting / Table of contents / SEO / RSS / LaTeX / Mermaid / Customizable / and more..."
-  >}}
-{{< /hextra/feature-grid >}}
