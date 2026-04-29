@@ -64,7 +64,7 @@ params:
   banner:
     key: 'sambutan'
     message: |
-      🎉 Welcome! To my Personal website~
+      😞 Maintenance! Satuan penanggalan sedang error. Selebihnya success runtime ✅~
   # add umami for analysis and tracking website
   analytics:
     umami:
