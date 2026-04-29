@@ -1,13 +1,13 @@
 ---
 title: Bulan's Digital
 layout: hextra-home
-name: google-adsense-account
 content: ca-pub-3095388627750634
+name: google-adsense-account
 ---
 
 {{< hextra/hero-badge >}}
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
-  <span>Fleksibel, Dapat belajar lebih banyak</span>{{< icon name="arrow-circle-right" attributes="height=14" >}}
+  <span>From zero to hero</span>{{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
 <div class="hx:mt-6 hx:mb-6">
