@@ -1,8 +1,10 @@
 ---
-title: "Post Desain"
+title: Post Desain
 date: 2024-01-15
-categories: ["Post"]
-tags: ["Desain"]
-draft: false
+draft: true
+categories: Post
+tags:
+  - Desain
 ---
+
 Isi artikel manajemen di sini...
