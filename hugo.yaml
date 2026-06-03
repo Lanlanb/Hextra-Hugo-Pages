@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: Bln. N
 
 # import hextra as module
 module:
@@ -14,43 +14,90 @@ markup:
 
   # enable hextra syntax highlight
   highlight:
-    noClasses: false
+    noClasses: true
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - name: Search
       weight: 1
+      params:
+        type: search  
+    - name: Blog
+      pageRef: /blog
+      weight: 3
+      type: link
+      icon: document
+    - name: Portofolio
+      pageRef: /portofolio
+      weight: 4
+      type: link 
+      icon: collection
     - name: About
       pageRef: /about
-      weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
-      weight: 3
-    - name: Search
-      weight: 4
-      params:
-        type: search
-    - name: GitHub
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
-      params:
-        icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
+      type: link
+      icon: user
 
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
 
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: true
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"  
+
+  
+  # add 'terakhir kali di update' dan 'author' dari commit git
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+  # Display the author of the last modification
+  displayUpdatedAuthor: true
+  # kalau sisipkan/ada link eksternal otomatis kasih tanda panah
+  externalLinkDecoration: true
+  # Add Banner di seluruh halaman, buat nonaktifin di halaman tertentu tinggal false aja di halaman/file nya masing-masing
+  banner:
+    key: 'sambutan'
+    message: |
+      😞 Maintenance! Satuan penanggalan sedang error. Selebihnya success runtime ✅~
+  # add umami for analysis and tracking website
+  analytics:
+    umami:
+      serverURL: "https://nurlaelabulan.my.id"
+      websiteID: "b32741f6-651d-46bd-936b-ea077ac915ca"
+
+  comments:
+      type: giscus
+      giscus:
+        repo: Lanlanb/Hextra-Hugo-Pages
+        repoId: R_kgDOSIerlg
+        category: Announcements
+        categoryId: DIC_kwDOSIerls4C7ZF8
+        theme: preferred_color_scheme
+        mapping: pathname        
+        strict: 0
+        reactionsEnabled: 1
+        emitMetadata: 1
+        inputPosition: top
+        lang: id
+        loading: lazy
+        crossorigi: anonymous
+        
+      
+# add Google Analytics for analysis Website and tracking
+services:
+  googleAnalytics:
+    ID: G-PE73MTF5GW
+
+# Taxonomy (Tags and Category)
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  
+# Enable untuk akses icon.yaml
+enableInlineShortcodes: true
