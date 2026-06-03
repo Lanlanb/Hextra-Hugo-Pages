@@ -62,15 +62,12 @@ collections:
   # ========== COLLECTION ABOUT ==========
   - name: "about"
     label: "About"
-    slug: "_index"
-    files:
-      - name: "about"
-        label: "About"
-        file: "content/about"
-        fields:
-          - {label: "Title", name: "title", widget: "string", default: "About"}
-          - {label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
-          - {label: "Body", name: "body", widget: "markdown"}
+    folder: "content/about"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "Tentang"}
+      - {label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
+      - {label: "Body", name: "body", widget: "markdown"}
  
   # ========== COLLECTION DOCS (optional) ==========
   - name: "docs"
