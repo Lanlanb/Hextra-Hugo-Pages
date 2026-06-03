@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Lanlanb/Hextra-Hugo-Pages # ← GANTI INI! Contoh: bulan123/my-hextra-blog
   branch: main
-  base_url: https://sveltia-cms-auth.bulannrlla.workers.dev   # atau domain cms kamu nanti
+  base_url: https://www.nurlaelabulan.my.id/cms   # atau domain cms kamu nanti
     
 media_folder: "static/images"
 public_folder: "/images"
@@ -62,15 +62,12 @@ collections:
   # ========== COLLECTION ABOUT ==========
   - name: "about"
     label: "About"
-    slug: "_index"
-    files:
-      - name: "about"
-        label: "About"
-        file: "content/about"
-        fields:
-          - {label: "Title", name: "title", widget: "string", default: "About"}
-          - {label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
-          - {label: "Body", name: "body", widget: "markdown"}
+    folder: "content/about"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "Tentang"}
+      - {label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
+      - {label: "Body", name: "body", widget: "markdown"}
  
   # ========== COLLECTION DOCS (optional) ==========
   - name: "docs"
