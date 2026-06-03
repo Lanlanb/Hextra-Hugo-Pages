@@ -64,9 +64,12 @@ collections:
     label: "About"
     folder: "content/about"
     create: true
+    slug: "{{slug}}"
+    identifier_field: "title"
     fields:
       - {label: "Title", name: "title", widget: "string", default: "Tentang"}
       - {label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
  
   # ========== COLLECTION DOCS (optional) ==========
