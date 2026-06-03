@@ -33,7 +33,7 @@ menu:
       type: link 
       icon: collection
     - name: About
-      pageRef: /about
+      pageRef: /about-me
       weight: 5
       type: link
       icon: user
