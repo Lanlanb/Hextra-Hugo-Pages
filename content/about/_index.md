@@ -1,6 +1,9 @@
 ---
 title: About
-date: 2026-04-23T21:23:00
+weight: 5
+# tags: ["manajemen", "data", "desain"]
+# categories: ["portofolio"]
+layout: "list"
 ---
 
 # Sekilas tentang saya
@@ -11,7 +14,7 @@ Lulus dengan hasil yang memuaskan, saya selalu berkomitmen untuk belajar dan ber
 
 Selain keahlian di bidang manajemen, **saya tertarik** pada penggunaan data untuk pengambilan keputusan yang lebih efektif serta memanfaatkan desain untuk menciptakan tampilan dan sistem yang fungsional dan menarik. Kombinasi ini memungkinkan saya untuk melihat solusi dari berbagai perspektif: manajerial, analitis, dan kreatif.
 
-Catatan lengkap mengenai karir dan pekerjaan saya dapat dilihat di resume saya → [Resume](https://www.notion.so/Resume-13dc813f9c548180ac04c38431d67efd?pvs=21) 
+Catatan lengkap mengenai karir dan pekerjaan saya dapat dilihat di resume saya → [Resume](https:
 
 # **Website Ini**
 
@@ -21,6 +24,6 @@ Website ini dibangun menggunakan sistem next-js-notion yang dikembangkan oleh Tr
 
 Statistik website ini dapat dilihat menggunakan umami, lho!
 
-[Umami Realtime Stats](https://www.notion.so/Umami-Realtime-Stats-202c813f9c548049b625f97c3343cd47?pvs=21)
+[Umami Realtime Stats](https:
 
 </aside>
