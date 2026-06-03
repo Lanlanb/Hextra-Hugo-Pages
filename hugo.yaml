@@ -70,6 +70,8 @@ params:
     umami:
       serverURL: "https://nurlaelabulan.my.id"
       websiteID: "b32741f6-651d-46bd-936b-ea077ac915ca"
+    goatCounter:
+      code: "Lanlanb"
 
   comments:
       type: giscus
