@@ -1,6 +1,7 @@
 ---
 title: Kegagalan saya
-date: 2026-06-02T23:46:00
+date: 2026-06-03T00:49:00
+draft: true
 ---
 
-Lorem ipsum dolor sit amet
+lorem ipsum dolor sit amet
