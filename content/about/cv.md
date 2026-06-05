@@ -4,18 +4,6 @@ date: 2026-06-05T12:05:00
 draft: false
 ---
 
-# Resume
-
-status: Published
-
-type: Post
-
-date: April 19, 2026 9:59 PM
-
-tags: data, desain, manajemen
-
-category: about
-
 # $\text{\color{248fed}\textbf{\textsf{BULAN\~}}}\textbf{\textsf{NURLAELA}}$
 
 Saya adalah lulusan SMK Perkantoran yang \*\*beralih ke bidang data\*\* melalui pelatihan intensif dari rangkaian kursus yang diikuti dan pengerjaan proyek nyata. Saya fokus pada pengolahan data dengan \*\*Python (Pandas, NumPy)\*\*, visualisasi di \*\*Power BI\*\*, dan khususnya analisis statistik (\*\*T-Test, EDA\*\*).
@@ -25,9 +13,7 @@ Selain itu, saya juga …
 Memiliki pengalaman praktis dalam:
 
 - Membersihkan & menganalisis dataset besar (7.000+ baris data di proyek MBA)
-
 - Membangun model machine learning (\*\*CNN akurasi 90%\*\* untuk ASL Recognition)
-
 - Komunikasi data yang efektif (presentasi insight ke stakeholder di Kemenag/PTPS)
 
 [Portofolio saya ada di sini](https://nurlaelabulan.my.id/#21cc813f9c54804bb812df4f8b072853) [ ini hyperlink ].
@@ -95,9 +81,7 @@ Depok, Jawa Barat , \*Juni - Juli 2024\*
 \*\*Saksi Pemilihan (PILPRES)\*\*
 
 - Memverifikasi lebih dari 200 pemilih, memastikan 70% pemilih hadir di TPS sesuai DPT yang diberikan.
-
 - Mengawasi proses pemungutan dan perhitungan surat suara selama 12 jam+ dengan recalculation suara sah.
-
 - Melaporkan jalannya pemilihan yang dilakukan dengan menyerahkan bukti salinan c-hasil dan berita acara.
 
 Depok, Jawa Barat, \*29 Feb 2024\*
@@ -109,11 +93,8 @@ Depok, Jawa Barat, \*29 Feb 2024\*
 \*\*Staff Administrasi Magang\*\* 
 
 - Menginput 70+ surat/hari melalui sistem internal instansi, mengurangi error input sebesar 50% melalui verifikasi actual surat.
-
 - Membantu menyusun presentasi rapat internal, memberikan insight berbasis data operasional selama bertugas.
-
 - Memasukkan rekapan harian dalam buku agenda kegiatan, meningkatkan efisiensi penyusunan laporan sebesar 25% dan mempercepat 15 menit waktu penyelesaian.
-
 - Berkontribusi pada kelancaran administrasi pemilu dengan memverifikasi dan mendistribusikan data pemilih untuk 200+ orang.
 
 Depok, Jawa Barat\*\*,\*\* \*Maret - April 2022\*
@@ -123,27 +104,20 @@ Depok, Jawa Barat\*\*,\*\* \*Maret - April 2022\*
 ## [\*\*Optimalisasi Penempatan dan Penjualan Produk Menggunakan MBA\*\*](https://www.nurlaelabulan.my.id/optimalisasi-penempatan-dan-penjualan-produk-menggunakan-mba)
 
 - Mengolah dataset transaksi dengan 7.000+ baris data untuk menemukan pola pembelian pelanggan.
-
 - Menghasilkan lebih dari 10 kombinasi produk yang dibeli bersama menggunakan algoritma Apriori.
-
 - Mengoptimasi strategi pemasaran bulan berikutnya, menggunakan Eclat sebagai validasi 10 kombinasi produk yang muncul.
 
 ## [\*\*ABC Store: Analisis Segmentasi Pelanggan\*\*](https://www.nurlaelabulan.my.id/timeseries)
 
 - Membersihkan data dengan menghapus 2,8% nilai yang kosong serta duplikasi data guna meningkatkan akurasi.
-
 - Menghitung performa untuk 5.800+ pelanggan melalui pembagian 4 segmentasi pelanggan.
-
 - Menghasilkan insight yang actionable dengan mengklasifikasi 16% pelanggan loyal dan 77% pelanggan yang beralih ke kompetitor.
 
 ## [\*\*Proyek Akhir Bootcamp Data Science di kelas.work\*\*](https://www.nurlaelabulan.my.id/final-projects-bootcamp-data-science)
 
 - Menguji keefektifan training yang diberikan pada 25 karyawan dengan 95% interval kepercayaan dan 5% alpha dalam T-Test.
-
 - Mengidentifikasi variabel yang mempengaruhi harga rumah, memvalidasi hasilnya dengan melakukan T-Test.
-
 - Menerapkan collaborative filtering dan content-based filtering pada model rekomendasi anime, meningkatkan skala rekomendasi sebesar 25%.
-
 - Berhasil mencapai 90% nilai akurasi data (Train dan Test) pada model CNN pengenalan bahasa isyarat American Sign Language.
 
 # $\textsf{\textbf{Sertifikasi}}$
