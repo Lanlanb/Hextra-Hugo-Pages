@@ -1,0 +1,10 @@
+{
+  "content": "content",
+  "media": "static",
+  "public": "static",
+  "configs": [
+    "hugo.yaml"
+  ],
+  "custom-commit": false,
+  "arrangement": []
+}
