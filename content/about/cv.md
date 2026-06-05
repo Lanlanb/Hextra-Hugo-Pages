@@ -1,5 +1,5 @@
 ---
-title: CV
+title: Resume
 date: 2026-06-05T11:23:00
 draft: false
 ---
