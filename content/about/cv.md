@@ -1,7 +1,7 @@
 ---
 title: CV
 date: 2026-06-05T11:23:00
-draft: true
+draft: false
 ---
 
 # $\text{\color{248fed}\textbf{\textsf{BULAN\~}}}\textbf{\textsf{NURLAELA}}$
