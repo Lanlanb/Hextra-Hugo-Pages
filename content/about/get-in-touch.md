@@ -8,4 +8,10 @@ Depok, Indonesia
 
 contact@nurlaelabulan.my.id
 
+[Bulan Nurlaela](www.linkedin.com/in/bulan-nurlaela) on LinkedIn
+
 [Lanlanb ](https://github.com/Lanlanb)on Github
+
+github.com/Lanlanb
+www.nurlaelabulan.my.id
++62812-1925-2647
